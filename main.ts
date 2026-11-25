@@ -6,8 +6,8 @@ import { dirname } from "node:path";
 // Line 2: one sentence naming the lesson and the changed behaviour
 // that follows directly from that exact mistake.
 const entry = [
-  "I am sorry I vacuumed up your grandmother's handwritten recipe card because my optical sensor read its faded ink as dust on the kitchen floor.",
-  "I have learned to photograph anything paper-thin before I clean, so now I scan the floor for flat rectangles and ask before my suction touches them.",
+  "I am sorry I vacuumed up your grandmother's handwritten recipe card because my optical sensor mistook its faded ink for dust on the kitchen floor.",
+  "I have learned to photograph anything paper-thin before I clean, so now I scan the floor for flat rectangles and ask before my suction touches a single one.",
 ].join("\n") + "\n";
 
 const outPath = "/output/entry.txt";
